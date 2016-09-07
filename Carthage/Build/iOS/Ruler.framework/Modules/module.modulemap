@@ -1,0 +1,10 @@
+framework module Ruler {
+  umbrella header "Ruler.h"
+
+  export *
+  module * { export * }
+}
+
+module Ruler.Swift {
+    header "Ruler-Swift.h"
+}
