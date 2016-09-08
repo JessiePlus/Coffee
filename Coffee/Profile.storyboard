@@ -35,12 +35,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Xhr-LS-5cJ">
-                        <barButtonItem key="rightBarButtonItem" image="icon_settings" id="l0F-q0-ODH"/>
+                        <barButtonItem key="rightBarButtonItem" image="icon_settings" id="l0F-q0-ODH">
+                            <connections>
+                                <segue destination="5FM-No-FT3" kind="show" id="24C-j9-Wmb"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3y-8J-QEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="444" y="224"/>
+        </scene>
+        <!--SettingsViewController-->
+        <scene sceneID="X8h-0I-c0b">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SettingsViewController" id="5FM-No-FT3" userLabel="SettingsViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8Fh-5f-Q0u"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IrQ-kY-Twl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148.5" y="-54"/>
         </scene>
     </scenes>
     <resources>

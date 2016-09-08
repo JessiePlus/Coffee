@@ -59,6 +59,7 @@
 		D6FDF3B01D80642400D0F059 /* CoffeeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6FDF3BB1D806DCA00D0F059 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF3BA1D806DCA00D0F059 /* Discover.storyboard */; };
 		D6FDF3BD1D806DD900D0F059 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF3BC1D806DD900D0F059 /* Profile.storyboard */; };
+		D6FDF3C01D812E8300D0F059 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF3BF1D812E8300D0F059 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +190,7 @@
 		D6FDF3AC1D80642400D0F059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FDF3BA1D806DCA00D0F059 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		D6FDF3BC1D806DD900D0F059 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		D6FDF3BF1D812E8300D0F059 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		F94A77E60021AE4CF58ED56A /* Pods-CoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeTests/Pods-CoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF7EC66F0EBC7252ED6D42DC /* Pods_CoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -403,10 +405,19 @@
 		D6FDF3B91D806DA100D0F059 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D6FDF3BE1D812E6D00D0F059 /* Settings */,
 				D6FDF3B81D806D7B00D0F059 /* Discover */,
 				D6FDF3B71D806D6B00D0F059 /* Profile */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6FDF3BE1D812E6D00D0F059 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D6FDF3BF1D812E8300D0F059 /* Settings.storyboard */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,6 +627,7 @@
 				D6FDF3051D8055AD00D0F059 /* Badges.xcassets in Resources */,
 				D6FDF2A61D8054CE00D0F059 /* LaunchScreen.storyboard in Resources */,
 				D6FDF2A11D8054CE00D0F059 /* Main.storyboard in Resources */,
+				D6FDF3C01D812E8300D0F059 /* Settings.storyboard in Resources */,
 				D6FDF3BB1D806DCA00D0F059 /* Discover.storyboard in Resources */,
 				D6FDF3061D8055AD00D0F059 /* Show.xcassets in Resources */,
 			);
