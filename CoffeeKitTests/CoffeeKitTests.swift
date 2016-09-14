@@ -2,12 +2,11 @@
 //  CoffeeKitTests.swift
 //  CoffeeKitTests
 //
-//  Created by dinglin on 16/9/7.
+//  Created by dinglin on 16/9/14.
 //  Copyright © 2016年 dinglin. All rights reserved.
 //
 
 import XCTest
-@testable import CoffeeKit
 
 class CoffeeKitTests: XCTestCase {
     
@@ -28,7 +27,7 @@ class CoffeeKitTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

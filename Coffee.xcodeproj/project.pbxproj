@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D2DDF04449857201B4B6FC1 /* Pods_CoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7EC66F0EBC7252ED6D42DC /* Pods_CoffeeTests.framework */; };
-		512065E4BCBABDED83EEA28C /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15534882DFBFFEBC0706C3C0 /* Pods_Coffee.framework */; };
+		8A72793B9E50576F5726F146 /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AFC541892E9E6CD17C904 /* Pods_Coffee.framework */; };
+		B9AA0D8AD8EAA2ED7F9EAC8F /* Pods_CoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5708F56F0584381285F9A5 /* Pods_CoffeeTests.framework */; };
+		D6C959951D890A6A00382AE6 /* CoffeeNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C959941D890A6A00382AE6 /* CoffeeNetworkingTests.swift */; };
+		D6C959971D890A6A00382AE6 /* CoffeeNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */; };
+		D6C959A41D890A8400382AE6 /* CoffeeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C959A31D890A8400382AE6 /* CoffeeKitTests.swift */; };
+		D6C959A61D890A8400382AE6 /* CoffeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */; };
 		D6FDF29A1D8054CE00D0F059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF2991D8054CE00D0F059 /* AppDelegate.swift */; };
 		D6FDF2A11D8054CE00D0F059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF29F1D8054CE00D0F059 /* Main.storyboard */; };
 		D6FDF2A61D8054CE00D0F059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF2A41D8054CE00D0F059 /* LaunchScreen.storyboard */; };
@@ -48,13 +52,9 @@
 		D6FDF3331D805CEA00D0F059 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF3161D805CE900D0F059 /* RxTests.framework */; };
 		D6FDF3341D805CEA00D0F059 /* RxTests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF3161D805CE900D0F059 /* RxTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6FDF33D1D805F8900D0F059 /* CoffeeNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FDF33C1D805F8900D0F059 /* CoffeeNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6FDF3441D805F8900D0F059 /* CoffeeNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */; };
-		D6FDF34B1D805F8900D0F059 /* CoffeeNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF34A1D805F8900D0F059 /* CoffeeNetworkingTests.swift */; };
 		D6FDF34F1D805F8900D0F059 /* CoffeeNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */; };
 		D6FDF3501D805F8900D0F059 /* CoffeeNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6FDF39D1D80642400D0F059 /* CoffeeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FDF39C1D80642400D0F059 /* CoffeeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6FDF3A41D80642400D0F059 /* CoffeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */; };
-		D6FDF3AB1D80642400D0F059 /* CoffeeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FDF3AA1D80642400D0F059 /* CoffeeKitTests.swift */; };
 		D6FDF3AF1D80642400D0F059 /* CoffeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */; };
 		D6FDF3B01D80642400D0F059 /* CoffeeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6FDF3BB1D806DCA00D0F059 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDF3BA1D806DCA00D0F059 /* Discover.storyboard */; };
@@ -63,21 +63,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D6FDF2AD1D8054CE00D0F059 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6FDF2951D8054CE00D0F059;
-			remoteInfo = Coffee;
-		};
-		D6FDF3451D805F8900D0F059 /* PBXContainerItemProxy */ = {
+		D6C959981D890A6A00382AE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6FDF3391D805F8800D0F059;
 			remoteInfo = CoffeeNetworking;
 		};
-		D6FDF3471D805F8900D0F059 /* PBXContainerItemProxy */ = {
+		D6C959A71D890A8400382AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FDF3991D80642400D0F059;
+			remoteInfo = CoffeeKit;
+		};
+		D6FDF2AD1D8054CE00D0F059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
 			proxyType = 1;
@@ -90,20 +90,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D6FDF3391D805F8800D0F059;
 			remoteInfo = CoffeeNetworking;
-		};
-		D6FDF3A51D80642400D0F059 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6FDF3991D80642400D0F059;
-			remoteInfo = CoffeeKit;
-		};
-		D6FDF3A71D80642400D0F059 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6FDF28E1D8054CE00D0F059 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6FDF2951D8054CE00D0F059;
-			remoteInfo = Coffee;
 		};
 		D6FDF3AD1D80642400D0F059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -146,9 +132,14 @@
 
 /* Begin PBXFileReference section */
 		0270ADB27ADDE9DB6C96F3B4 /* Pods-Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee/Pods-Coffee.debug.xcconfig"; sourceTree = "<group>"; };
-		15534882DFBFFEBC0706C3C0 /* Pods_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88055C2045ACA77286E275DA /* Pods-Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee/Pods-Coffee.release.xcconfig"; sourceTree = "<group>"; };
 		8BC5B62130451F4166B9676E /* Pods-CoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeTests/Pods-CoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C959921D890A6A00382AE6 /* CoffeeNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C959941D890A6A00382AE6 /* CoffeeNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeNetworkingTests.swift; sourceTree = "<group>"; };
+		D6C959961D890A6A00382AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C959A11D890A8400382AE6 /* CoffeeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C959A31D890A8400382AE6 /* CoffeeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeKitTests.swift; sourceTree = "<group>"; };
+		D6C959A51D890A8400382AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FDF2961D8054CE00D0F059 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FDF2991D8054CE00D0F059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6FDF2A01D8054CE00D0F059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -179,23 +170,34 @@
 		D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoffeeNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FDF33C1D805F8900D0F059 /* CoffeeNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeNetworking.h; sourceTree = "<group>"; };
 		D6FDF33E1D805F8900D0F059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6FDF3431D805F8900D0F059 /* CoffeeNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FDF34A1D805F8900D0F059 /* CoffeeNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeNetworkingTests.swift; sourceTree = "<group>"; };
-		D6FDF34C1D805F8900D0F059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoffeeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FDF39C1D80642400D0F059 /* CoffeeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeKit.h; sourceTree = "<group>"; };
 		D6FDF39E1D80642400D0F059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6FDF3A31D80642400D0F059 /* CoffeeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FDF3AA1D80642400D0F059 /* CoffeeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeKitTests.swift; sourceTree = "<group>"; };
-		D6FDF3AC1D80642400D0F059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FDF3BA1D806DCA00D0F059 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		D6FDF3BC1D806DD900D0F059 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		D6FDF3BF1D812E8300D0F059 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		DD5708F56F0584381285F9A5 /* Pods_CoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7AFC541892E9E6CD17C904 /* Pods_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94A77E60021AE4CF58ED56A /* Pods-CoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeTests/Pods-CoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
-		FF7EC66F0EBC7252ED6D42DC /* Pods_CoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D6C9598F1D890A6A00382AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C959971D890A6A00382AE6 /* CoffeeNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C9599E1D890A8400382AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C959A61D890A8400382AE6 /* CoffeeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6FDF2931D8054CE00D0F059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,7 +210,6 @@
 				D6FDF3231D805CEA00D0F059 /* Proposer.framework in Frameworks */,
 				D6FDF3311D805CEA00D0F059 /* RxSwift.framework in Frameworks */,
 				D6FDF31F1D805CE900D0F059 /* MonkeyKing.framework in Frameworks */,
-				512065E4BCBABDED83EEA28C /* Pods_Coffee.framework in Frameworks */,
 				D6FDF3211D805CEA00D0F059 /* Navi.framework in Frameworks */,
 				D6FDF34F1D805F8900D0F059 /* CoffeeNetworking.framework in Frameworks */,
 				D6FDF3191D805CE900D0F059 /* Kanna.framework in Frameworks */,
@@ -218,6 +219,7 @@
 				D6FDF3171D805CE900D0F059 /* Alamofire.framework in Frameworks */,
 				D6FDF3331D805CEA00D0F059 /* RxTests.framework in Frameworks */,
 				D6FDF3251D805CEA00D0F059 /* Realm.framework in Frameworks */,
+				8A72793B9E50576F5726F146 /* Pods_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2DDF04449857201B4B6FC1 /* Pods_CoffeeTests.framework in Frameworks */,
+				B9AA0D8AD8EAA2ED7F9EAC8F /* Pods_CoffeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,26 +238,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF3401D805F8900D0F059 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6FDF3441D805F8900D0F059 /* CoffeeNetworking.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6FDF3961D80642400D0F059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6FDF3A01D80642400D0F059 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6FDF3A41D80642400D0F059 /* CoffeeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +266,8 @@
 				D6FDF3141D805CE900D0F059 /* RxCocoa.framework */,
 				D6FDF3151D805CE900D0F059 /* RxSwift.framework */,
 				D6FDF3161D805CE900D0F059 /* RxTests.framework */,
-				15534882DFBFFEBC0706C3C0 /* Pods_Coffee.framework */,
-				FF7EC66F0EBC7252ED6D42DC /* Pods_CoffeeTests.framework */,
+				DE7AFC541892E9E6CD17C904 /* Pods_Coffee.framework */,
+				DD5708F56F0584381285F9A5 /* Pods_CoffeeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -297,15 +283,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D6C959931D890A6A00382AE6 /* CoffeeNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C959941D890A6A00382AE6 /* CoffeeNetworkingTests.swift */,
+				D6C959961D890A6A00382AE6 /* Info.plist */,
+			);
+			path = CoffeeNetworkingTests;
+			sourceTree = "<group>";
+		};
+		D6C959A21D890A8400382AE6 /* CoffeeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C959A31D890A8400382AE6 /* CoffeeKitTests.swift */,
+				D6C959A51D890A8400382AE6 /* Info.plist */,
+			);
+			path = CoffeeKitTests;
+			sourceTree = "<group>";
+		};
 		D6FDF28D1D8054CE00D0F059 = {
 			isa = PBXGroup;
 			children = (
 				D6FDF2981D8054CE00D0F059 /* Coffee */,
 				D6FDF2AF1D8054CE00D0F059 /* CoffeeTests */,
 				D6FDF33B1D805F8900D0F059 /* CoffeeNetworking */,
-				D6FDF3491D805F8900D0F059 /* CoffeeNetworkingTests */,
 				D6FDF39B1D80642400D0F059 /* CoffeeKit */,
-				D6FDF3A91D80642400D0F059 /* CoffeeKitTests */,
+				D6C959931D890A6A00382AE6 /* CoffeeNetworkingTests */,
+				D6C959A21D890A8400382AE6 /* CoffeeKitTests */,
 				D6FDF2971D8054CE00D0F059 /* Products */,
 				D3ACB2228491BE9784CD6ABB /* Pods */,
 				7EE7E672BB58ABE27F4A5C29 /* Frameworks */,
@@ -318,9 +322,9 @@
 				D6FDF2961D8054CE00D0F059 /* Coffee.app */,
 				D6FDF2AC1D8054CE00D0F059 /* CoffeeTests.xctest */,
 				D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */,
-				D6FDF3431D805F8900D0F059 /* CoffeeNetworkingTests.xctest */,
 				D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */,
-				D6FDF3A31D80642400D0F059 /* CoffeeKitTests.xctest */,
+				D6C959921D890A6A00382AE6 /* CoffeeNetworkingTests.xctest */,
+				D6C959A11D890A8400382AE6 /* CoffeeKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,15 +363,6 @@
 			path = CoffeeNetworking;
 			sourceTree = "<group>";
 		};
-		D6FDF3491D805F8900D0F059 /* CoffeeNetworkingTests */ = {
-			isa = PBXGroup;
-			children = (
-				D6FDF34A1D805F8900D0F059 /* CoffeeNetworkingTests.swift */,
-				D6FDF34C1D805F8900D0F059 /* Info.plist */,
-			);
-			path = CoffeeNetworkingTests;
-			sourceTree = "<group>";
-		};
 		D6FDF39B1D80642400D0F059 /* CoffeeKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,15 +370,6 @@
 				D6FDF39E1D80642400D0F059 /* Info.plist */,
 			);
 			path = CoffeeKit;
-			sourceTree = "<group>";
-		};
-		D6FDF3A91D80642400D0F059 /* CoffeeKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				D6FDF3AA1D80642400D0F059 /* CoffeeKitTests.swift */,
-				D6FDF3AC1D80642400D0F059 /* Info.plist */,
-			);
-			path = CoffeeKitTests;
 			sourceTree = "<group>";
 		};
 		D6FDF3B71D806D6B00D0F059 /* Profile */ = {
@@ -442,6 +428,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D6C959911D890A6A00382AE6 /* CoffeeNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C9599C1D890A6A00382AE6 /* Build configuration list for PBXNativeTarget "CoffeeNetworkingTests" */;
+			buildPhases = (
+				D6C9598E1D890A6A00382AE6 /* Sources */,
+				D6C9598F1D890A6A00382AE6 /* Frameworks */,
+				D6C959901D890A6A00382AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C959991D890A6A00382AE6 /* PBXTargetDependency */,
+			);
+			name = CoffeeNetworkingTests;
+			productName = CoffeeNetworkingTests;
+			productReference = D6C959921D890A6A00382AE6 /* CoffeeNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C959A01D890A8400382AE6 /* CoffeeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C959A91D890A8400382AE6 /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */;
+			buildPhases = (
+				D6C9599D1D890A8400382AE6 /* Sources */,
+				D6C9599E1D890A8400382AE6 /* Frameworks */,
+				D6C9599F1D890A8400382AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C959A81D890A8400382AE6 /* PBXTargetDependency */,
+			);
+			name = CoffeeKitTests;
+			productName = CoffeeKitTests;
+			productReference = D6C959A11D890A8400382AE6 /* CoffeeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D6FDF2951D8054CE00D0F059 /* Coffee */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6FDF2B51D8054CE00D0F059 /* Build configuration list for PBXNativeTarget "Coffee" */;
@@ -504,25 +526,6 @@
 			productReference = D6FDF33A1D805F8800D0F059 /* CoffeeNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D6FDF3421D805F8900D0F059 /* CoffeeNetworkingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6FDF3541D805F8900D0F059 /* Build configuration list for PBXNativeTarget "CoffeeNetworkingTests" */;
-			buildPhases = (
-				D6FDF33F1D805F8900D0F059 /* Sources */,
-				D6FDF3401D805F8900D0F059 /* Frameworks */,
-				D6FDF3411D805F8900D0F059 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6FDF3461D805F8900D0F059 /* PBXTargetDependency */,
-				D6FDF3481D805F8900D0F059 /* PBXTargetDependency */,
-			);
-			name = CoffeeNetworkingTests;
-			productName = CoffeeNetworkingTests;
-			productReference = D6FDF3431D805F8900D0F059 /* CoffeeNetworkingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D6FDF3991D80642400D0F059 /* CoffeeKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6FDF3B11D80642400D0F059 /* Build configuration list for PBXNativeTarget "CoffeeKit" */;
@@ -541,35 +544,24 @@
 			productReference = D6FDF39A1D80642400D0F059 /* CoffeeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D6FDF3A21D80642400D0F059 /* CoffeeKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6FDF3B41D80642400D0F059 /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */;
-			buildPhases = (
-				D6FDF39F1D80642400D0F059 /* Sources */,
-				D6FDF3A01D80642400D0F059 /* Frameworks */,
-				D6FDF3A11D80642400D0F059 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6FDF3A61D80642400D0F059 /* PBXTargetDependency */,
-				D6FDF3A81D80642400D0F059 /* PBXTargetDependency */,
-			);
-			name = CoffeeKitTests;
-			productName = CoffeeKitTests;
-			productReference = D6FDF3A31D80642400D0F059 /* CoffeeKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D6FDF28E1D8054CE00D0F059 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = dinglin;
 				TargetAttributes = {
+					D6C959911D890A6A00382AE6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D6C959A01D890A8400382AE6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					D6FDF2951D8054CE00D0F059 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -580,16 +572,8 @@
 					D6FDF3391D805F8800D0F059 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					D6FDF3421D805F8900D0F059 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D6FDF2951D8054CE00D0F059;
-					};
 					D6FDF3991D80642400D0F059 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					D6FDF3A21D80642400D0F059 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D6FDF2951D8054CE00D0F059;
 					};
 				};
 			};
@@ -609,14 +593,28 @@
 				D6FDF2951D8054CE00D0F059 /* Coffee */,
 				D6FDF2AB1D8054CE00D0F059 /* CoffeeTests */,
 				D6FDF3391D805F8800D0F059 /* CoffeeNetworking */,
-				D6FDF3421D805F8900D0F059 /* CoffeeNetworkingTests */,
+				D6C959911D890A6A00382AE6 /* CoffeeNetworkingTests */,
 				D6FDF3991D80642400D0F059 /* CoffeeKit */,
-				D6FDF3A21D80642400D0F059 /* CoffeeKitTests */,
+				D6C959A01D890A8400382AE6 /* CoffeeKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D6C959901D890A6A00382AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C9599F1D890A8400382AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6FDF2941D8054CE00D0F059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,21 +645,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF3411D805F8900D0F059 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6FDF3981D80642400D0F059 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6FDF3A11D80642400D0F059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -764,6 +748,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D6C9598E1D890A6A00382AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C959951D890A6A00382AE6 /* CoffeeNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C9599D1D890A8400382AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C959A41D890A8400382AE6 /* CoffeeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6FDF2921D8054CE00D0F059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -787,14 +787,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF33F1D805F8900D0F059 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6FDF34B1D805F8900D0F059 /* CoffeeNetworkingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6FDF3951D80642400D0F059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -802,46 +794,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FDF39F1D80642400D0F059 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6FDF3AB1D80642400D0F059 /* CoffeeKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D6C959991D890A6A00382AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF3391D805F8800D0F059 /* CoffeeNetworking */;
+			targetProxy = D6C959981D890A6A00382AE6 /* PBXContainerItemProxy */;
+		};
+		D6C959A81D890A8400382AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FDF3991D80642400D0F059 /* CoffeeKit */;
+			targetProxy = D6C959A71D890A8400382AE6 /* PBXContainerItemProxy */;
+		};
 		D6FDF2AE1D8054CE00D0F059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6FDF2951D8054CE00D0F059 /* Coffee */;
 			targetProxy = D6FDF2AD1D8054CE00D0F059 /* PBXContainerItemProxy */;
 		};
-		D6FDF3461D805F8900D0F059 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6FDF3391D805F8800D0F059 /* CoffeeNetworking */;
-			targetProxy = D6FDF3451D805F8900D0F059 /* PBXContainerItemProxy */;
-		};
-		D6FDF3481D805F8900D0F059 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6FDF2951D8054CE00D0F059 /* Coffee */;
-			targetProxy = D6FDF3471D805F8900D0F059 /* PBXContainerItemProxy */;
-		};
 		D6FDF34E1D805F8900D0F059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6FDF3391D805F8800D0F059 /* CoffeeNetworking */;
 			targetProxy = D6FDF34D1D805F8900D0F059 /* PBXContainerItemProxy */;
-		};
-		D6FDF3A61D80642400D0F059 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6FDF3991D80642400D0F059 /* CoffeeKit */;
-			targetProxy = D6FDF3A51D80642400D0F059 /* PBXContainerItemProxy */;
-		};
-		D6FDF3A81D80642400D0F059 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6FDF2951D8054CE00D0F059 /* Coffee */;
-			targetProxy = D6FDF3A71D80642400D0F059 /* PBXContainerItemProxy */;
 		};
 		D6FDF3AE1D80642400D0F059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -870,6 +844,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D6C9599A1D890A6A00382AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = CoffeeNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6C9599B1D890A6A00382AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = CoffeeNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D6C959AA1D890A8400382AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6C959AB1D890A8400382AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		D6FDF2B31D8054CE00D0F059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -912,6 +950,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -950,6 +989,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1055,28 +1095,6 @@
 			};
 			name = Release;
 		};
-		D6FDF3551D805F8900D0F059 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CoffeeNetworkingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeNetworkingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
-			};
-			name = Debug;
-		};
-		D6FDF3561D805F8900D0F059 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CoffeeNetworkingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeNetworkingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
-			};
-			name = Release;
-		};
 		D6FDF3B21D80642400D0F059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1115,31 +1133,25 @@
 			};
 			name = Release;
 		};
-		D6FDF3B51D80642400D0F059 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
-			};
-			name = Debug;
-		};
-		D6FDF3B61D80642400D0F059 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hangzhou.CoffeeKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D6C9599C1D890A6A00382AE6 /* Build configuration list for PBXNativeTarget "CoffeeNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C9599A1D890A6A00382AE6 /* Debug */,
+				D6C9599B1D890A6A00382AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6C959A91D890A8400382AE6 /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C959AA1D890A8400382AE6 /* Debug */,
+				D6C959AB1D890A8400382AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D6FDF2911D8054CE00D0F059 /* Build configuration list for PBXProject "Coffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1176,29 +1188,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6FDF3541D805F8900D0F059 /* Build configuration list for PBXNativeTarget "CoffeeNetworkingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6FDF3551D805F8900D0F059 /* Debug */,
-				D6FDF3561D805F8900D0F059 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D6FDF3B11D80642400D0F059 /* Build configuration list for PBXNativeTarget "CoffeeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6FDF3B21D80642400D0F059 /* Debug */,
 				D6FDF3B31D80642400D0F059 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6FDF3B41D80642400D0F059 /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6FDF3B51D80642400D0F059 /* Debug */,
-				D6FDF3B61D80642400D0F059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
