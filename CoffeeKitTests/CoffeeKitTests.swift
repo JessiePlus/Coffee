@@ -2,11 +2,12 @@
 //  CoffeeKitTests.swift
 //  CoffeeKitTests
 //
-//  Created by dinglin on 16/9/14.
+//  Created by dinglin on 2016/9/21.
 //  Copyright © 2016年 dinglin. All rights reserved.
 //
 
 import XCTest
+@testable import CoffeeKit
 
 class CoffeeKitTests: XCTestCase {
     
